@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "darkwastes:fervor_shards"
+    }
+  },
+  "result": {
+    "item": "darkwastes:fervor_shard_block"
+  }
+}

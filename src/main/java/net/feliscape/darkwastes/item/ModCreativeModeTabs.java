@@ -1,6 +1,7 @@
 package net.feliscape.darkwastes.item;
 
 import net.feliscape.darkwastes.Darkwastes;
+import net.feliscape.darkwastes.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,6 +19,14 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.darkwastes_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.ASH.get());
+                        pOutput.accept(ModBlocks.ASH_BLOCK.get());
+
+                        pOutput.accept(ModItems.FERVOR_SHARDS.get());
+                        pOutput.accept(ModBlocks.FERVOR_SHARD_BLOCK.get());
+                        pOutput.accept(ModBlocks.FERVOR_SHARD_ORE.get());
+
+                        pOutput.accept(ModBlocks.CINDERROCK.get());
+                        pOutput.accept(ModItems.PEAT_BREAD.get());
                     })
                     .build());
 

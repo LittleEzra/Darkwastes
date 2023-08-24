@@ -1,6 +1,7 @@
 package net.feliscape.darkwastes;
 
 import com.mojang.logging.LogUtils;
+import net.feliscape.darkwastes.block.ModBlocks;
 import net.feliscape.darkwastes.item.ModCreativeModeTabs;
 import net.feliscape.darkwastes.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,7 +31,9 @@ public class Darkwastes
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -1,5 +1,15 @@
 {
   "item.darkwastes.ash": "Ash",
+  "item.darkwastes.fervor_shards": "Fervor Shards",
+
+  "block.darkwastes.ash_block": "Ash Block",
+  "block.darkwastes.fervor_shard_block": "Block of Fervor Shard",
+  "block.darkwastes.fervor_shard_ore": "Fervor Shard Ore",
+  "block.darkwastes.cinderrock": "Cinderrock",
+
+  "block.darkwastes.stalwart_effigy": "Stalwart Effigy",
+  "block.darkwastes.greedy_effigy": "Greedy Effigy",
+  "block.darkwastes.nimble_effigy": "Nimble Effigy",
 
   "creativetab.darkwastes_tab": "Darkwastes"
 }

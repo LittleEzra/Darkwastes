@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "darkwastes:block/fervor_shard_ore"
+  }
+}

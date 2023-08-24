@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "darkwastes:block/greedy_effigy",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "darkwastes:block/greedy_effigy"
+    },
+    "facing=south": {
+      "model": "darkwastes:block/greedy_effigy",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "darkwastes:block/greedy_effigy",
+      "y": 270
+    }
+  }
+}
