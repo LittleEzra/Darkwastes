@@ -6,5 +6,7 @@ import net.minecraft.world.food.FoodProperties;
 
 public class ModFoods {
     public static final FoodProperties PEAT_BREAD = new FoodProperties.Builder().nutrition(7)
-            .saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 120), 0.3F).build();
+            .saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 200), 0.75f).build();
+    public static final FoodProperties EMBERBERRY = new FoodProperties.Builder().nutrition(3)
+            .saturationMod(0.2f).effect(() -> new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 600), 1.0F).build();
 }

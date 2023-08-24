@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "stalwart_effigy",
-		"particle": "stalwart_effigy"
+		"0": "darkwastes:block/stalwart_effigy",
+		"particle": "darkwastes:block/stalwart_effigy"
 	},
 	"elements": [
 		{

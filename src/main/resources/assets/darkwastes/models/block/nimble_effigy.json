@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nimble_effigy",
-		"particle": "nimble_effigy"
+		"0": "darkwastes:block/nimble_effigy",
+		"particle": "darkwastes:block/nimble_effigy"
 	},
 	"elements": [
 		{

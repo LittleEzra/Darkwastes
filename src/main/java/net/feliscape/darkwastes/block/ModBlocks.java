@@ -37,9 +37,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STALWART_EFFIGY = registerBlock("stalwart_effigy",
             () -> new StalwartEffigyBlock(BlockBehaviour.Properties.copy(ModBlocks.CINDERROCK.get()).strength(2f).noOcclusion()));
-    public static final RegistryObject<Block> GREEDY_EFFIGY = registerBlock("stalwart_effigy",
+    public static final RegistryObject<Block> GREEDY_EFFIGY = registerBlock("greedy_effigy",
             () -> new GreedyEffigyBlock(BlockBehaviour.Properties.copy(ModBlocks.CINDERROCK.get()).strength(2f).noOcclusion()));
-    public static final RegistryObject<Block> NIMBLE_EFFIGY = registerBlock("stalwart_effigy",
+    public static final RegistryObject<Block> NIMBLE_EFFIGY = registerBlock("nimble_effigy",
             () -> new NimbleEffigyBlock(BlockBehaviour.Properties.copy(ModBlocks.CINDERROCK.get()).strength(2f).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){

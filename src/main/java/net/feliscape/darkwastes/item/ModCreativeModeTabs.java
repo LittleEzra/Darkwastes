@@ -24,9 +24,14 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.FERVOR_SHARDS.get());
                         pOutput.accept(ModBlocks.FERVOR_SHARD_BLOCK.get());
                         pOutput.accept(ModBlocks.FERVOR_SHARD_ORE.get());
-
                         pOutput.accept(ModBlocks.CINDERROCK.get());
+
+                        pOutput.accept(ModBlocks.STALWART_EFFIGY.get());
+                        pOutput.accept(ModBlocks.GREEDY_EFFIGY.get());
+                        pOutput.accept(ModBlocks.NIMBLE_EFFIGY.get());
+
                         pOutput.accept(ModItems.PEAT_BREAD.get());
+                        pOutput.accept(ModItems.TWIG.get());
                     })
                     .build());
 
