@@ -1,4 +1,11 @@
 {
+  "advancements.darkwastes.dark_wastes.root.title": "Emberwilds",
+  "advancements.darkwastes.dark_wastes.root.description": "A land ravaged by flame a long time ago.",
+  "advancements.darkwastes.dark_wastes.get_emberberry.title": "Smells Like Your Father",
+  "advancements.darkwastes.dark_wastes.get_emberberry.description": "Collect some emberberries from a scorched tree.",
+  "advancements.darkwastes.story.enter_the_emberwilds.title": "Land of Cinder",
+  "advancements.darkwastes.story.enter_the_emberwilds.description": "Enter the portal into the Emberwilds.",
+
   "item.darkwastes.ash": "Ash",
   "item.darkwastes.fervor_shards": "Fervor Shards",
   "item.darkwastes.peat_bread": "Peat Bread",

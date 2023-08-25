@@ -30,7 +30,6 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.BASALT)));
     public static final RegistryObject<Block> FERVOR_SHARD_BLOCK = registerBlock("fervor_shard_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.AMETHYST)));
-
     public static final RegistryObject<Block> FERVOR_SHARD_ORE = registerBlock("fervor_shard_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.BASALT)
                     .strength(1.75f), UniformInt.of(3, 6)));
