@@ -34,6 +34,21 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         dropSelf(ModBlocks.GREEDY_EFFIGY.get());
         dropSelf(ModBlocks.NIMBLE_EFFIGY.get());
 
+        dropSelf(ModBlocks.CHARRED_LOG.get());
+        dropSelf(ModBlocks.STRIPPED_CHARRED_LOG.get());
+        dropSelf(ModBlocks.CHARRED_PLANKS.get());
+        dropSelf(ModBlocks.CHARRED_FENCE.get());
+        dropSelf(ModBlocks.CHARRED_FENCE_GATE.get());
+        dropSelf(ModBlocks.CHARRED_STAIRS.get());
+        dropSelf(ModBlocks.CHARRED_BUTTON.get());
+        dropSelf(ModBlocks.CHARRED_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.CHARRED_TRAPDOOR.get());
+
+        this.add(ModBlocks.CHARRED_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.CHARRED_SLAB.get()));
+        this.add(ModBlocks.CHARRED_DOOR.get(),
+                block -> createDoorTable(ModBlocks.CHARRED_DOOR.get()));
+
         this.add(ModBlocks.FERVOR_SHARD_ORE.get(),
                 block -> createOreDrop(ModBlocks.FERVOR_SHARD_ORE.get(), ModItems.FERVOR_SHARDS.get()));
     }

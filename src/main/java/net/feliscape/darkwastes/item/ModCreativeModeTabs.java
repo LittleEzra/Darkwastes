@@ -31,7 +31,22 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.NIMBLE_EFFIGY.get());
 
                         pOutput.accept(ModItems.PEAT_BREAD.get());
+                        pOutput.accept(ModItems.EMBERBERRY.get());
                         pOutput.accept(ModItems.TWIG.get());
+
+                        pOutput.accept(ModBlocks.CHARRED_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_CHARRED_LOG.get());
+                        pOutput.accept(ModBlocks.CHARRED_PLANKS.get());
+                        pOutput.accept(ModBlocks.CHARRED_SLAB.get());
+                        pOutput.accept(ModBlocks.CHARRED_STAIRS.get());
+                        pOutput.accept(ModBlocks.CHARRED_FENCE.get());
+                        pOutput.accept(ModBlocks.CHARRED_FENCE_GATE.get());
+
+                        pOutput.accept(ModBlocks.CHARRED_DOOR.get());
+                        pOutput.accept(ModBlocks.CHARRED_TRAPDOOR.get());
+
+                        pOutput.accept(ModBlocks.CHARRED_BUTTON.get());
+                        pOutput.accept(ModBlocks.CHARRED_PRESSURE_PLATE.get());
                     })
                     .build());
 

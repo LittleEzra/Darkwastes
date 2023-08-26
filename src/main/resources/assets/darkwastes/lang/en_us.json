@@ -9,6 +9,7 @@
   "item.darkwastes.ash": "Ash",
   "item.darkwastes.fervor_shards": "Fervor Shards",
   "item.darkwastes.peat_bread": "Peat Bread",
+  "item.darkwastes.emberberry": "Emberberry",
   "item.darkwastes.twig": "Twig",
 
   "block.darkwastes.ash_block": "Ash Block",
@@ -19,6 +20,18 @@
   "block.darkwastes.stalwart_effigy": "Stalwart Effigy",
   "block.darkwastes.greedy_effigy": "Greedy Effigy",
   "block.darkwastes.nimble_effigy": "Nimble Effigy",
+
+  "block.darkwastes.charred_log": "Charred Log",
+  "block.darkwastes.stripped_charred_log": "Stripped Charred Log",
+  "block.darkwastes.charred_planks": "Charred Plank",
+  "block.darkwastes.charred_slab": "Charred Slab",
+  "block.darkwastes.charred_stairs": "Charred Stairs",
+  "block.darkwastes.charred_fence": "Charred Fence",
+  "block.darkwastes.charred_fence_gate": "Charred Fence Gate",
+  "block.darkwastes.charred_button": "Charred Button",
+  "block.darkwastes.charred_pressure_plate": "Charred Pressure Plate",
+  "block.darkwastes.charred_door": "Charred Door",
+  "block.darkwastes.charred_trapdoor": "Charred Trapdoor",
 
   "creativetab.darkwastes_tab": "Darkwastes"
 }

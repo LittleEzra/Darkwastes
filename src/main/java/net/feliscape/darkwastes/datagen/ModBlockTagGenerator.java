@@ -38,5 +38,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 );
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(ModBlocks.ASH_BLOCK.get());
+
+        this.tag(BlockTags.FENCES)
+                .add(ModBlocks.CHARRED_FENCE.get());
+        this.tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.CHARRED_FENCE_GATE.get());
     }
 }
